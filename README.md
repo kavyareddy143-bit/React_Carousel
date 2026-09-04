@@ -1,4 +1,4 @@
-<img width="993" height="696" alt="image" src="https://github.com/user-attachments/assets/de572759-008b-45a9-a41e-44057b116db7" /># Ex05 Image Carousel
+# Ex05 Image Carousel
 ## Date: 04-09-2026
 
 

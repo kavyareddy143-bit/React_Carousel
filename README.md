@@ -1,4 +1,4 @@
-# Ex05 Image Carousel
+<img width="993" height="696" alt="image" src="https://github.com/user-attachments/assets/de572759-008b-45a9-a41e-44057b116db7" /># Ex05 Image Carousel
 ## Date: 04-09-2026
 
 
@@ -172,7 +172,10 @@ p {
 ```
 
 ## OUTPUT
+<img width="1051" height="658" alt="image" src="https://github.com/user-attachments/assets/2b299a58-9697-4a7c-8849-8615266818ef" />
 
+<img width="993" height="696" alt="image" src="https://github.com/user-attachments/assets/069ec4a0-5516-46fc-8fe3-a6ccaeecd988" />
+<img width="1007" height="680" alt="image" src="https://github.com/user-attachments/assets/e50473ad-4182-465d-8068-b9a710c3ba15" />
 
 ## RESULT
 The program for creating Image Carousel using React is executed successfully.

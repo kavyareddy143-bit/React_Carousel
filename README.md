@@ -172,6 +172,8 @@ p {
 ```
 
 ## OUTPUT
+<img width="1447" height="760" alt="image" src="https://github.com/user-attachments/assets/9c914a76-0e6c-4875-bbae-14d6e3b30ad0" />
+
 <img width="1051" height="658" alt="image" src="https://github.com/user-attachments/assets/2b299a58-9697-4a7c-8849-8615266818ef" />
 
 <img width="993" height="696" alt="image" src="https://github.com/user-attachments/assets/069ec4a0-5516-46fc-8fe3-a6ccaeecd988" />

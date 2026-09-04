@@ -1,16 +1,48 @@
-# React + Vite
+# Ex05 Image Carousel
+## Date:
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+## AIM
+To create a Image Carousel using React 
 
-Currently, two official plugins are available:
+## ALGORITHM
+### STEP 1 Initial Setup:
+Input: A list of images to display in the carousel.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Output: A component displaying the images with navigation controls (e.g., next/previous buttons).
 
-## React Compiler
+### Step 2 State Management:
+Use a state variable (currentIndex) to track the index of the current image displayed.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The carousel starts with the first image, so initialize currentIndex to 0.
 
-## Expanding the Oxlint configuration
+### Step 3 Navigation Controls:
+Next Image: When the "Next" button is clicked, increment currentIndex.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+If currentIndex is at the end of the image list (last image), loop back to the first image using modulo:
+currentIndex = (currentIndex + 1) % images.length;
+
+Previous Image: When the "Previous" button is clicked, decrement currentIndex.
+
+If currentIndex is at the beginning (first image), loop back to the last image:
+currentIndex = (currentIndex - 1 + images.length) % images.length;
+
+### Step 4 Displaying the Image:
+The currentIndex determines which image is displayed.
+
+Using the currentIndex, display the corresponding image from the images list.
+
+### Step 5 Auto-Rotation:
+Set an interval to automatically change the image after a set amount of time (e.g., 3 seconds).
+
+Use setInterval to call the nextImage() function at regular intervals.
+
+Clean up the interval when the component unmounts using clearInterval to prevent memory leaks.
+
+## PROGRAM
+
+
+## OUTPUT
+
+
+## RESULT
+The program for creating Image Carousel using React is executed successfully.
